@@ -14,6 +14,7 @@ public class Solution09 {
     public static void main(String[] args) {
         Solution09 app = new Solution09();
 
+        //call for methods
         int length = app.readLengthFromUser();
         int width = app.readWidthFromUser();
         double paintNeeded = app.readPainNeededFromUser(length,width);
@@ -21,16 +22,21 @@ public class Solution09 {
     }
 
     private int readWidthFromUser() {
+        //read user input and make it an int
         System.out.println("Enter value for width? ");
         return in.nextInt();
     }
 
     private int readLengthFromUser() {
+        //read user input and make it an int
         System.out.println("Enter value for length? ");
         return in.nextInt();
     }
 
     private double readPainNeededFromUser(int length, int width) {
+        //get area then divide area by 350
+        //round up the number
+        //return the rounded up number
         double areaOfCeiling = length * width;
         double amtOfPaint = 350;
         double bucketOfPaint = Math.ceil(areaOfCeiling / amtOfPaint);
