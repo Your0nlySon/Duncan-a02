@@ -51,7 +51,7 @@ public class Solution20 {
             return finalPrice;
         }
 
-
+        //else if statement to get the tax for Illinois
         else if (stateName.equals("Illinois")) {
             taxedAmt = 0.08;
             System.out.println("The tax is $" + taxedAmt);
