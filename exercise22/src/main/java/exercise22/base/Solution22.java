@@ -8,6 +8,12 @@ package exercise22.base;
 import java.util.Scanner;
 
 public class Solution22 {
+
+    //Create method and call firstNum, secondNum, and thirdNum
+    //Read input from user and return value for all three methods
+    //Have the numbers compare to each other through the use of if and else if statements
+    //Print the biggest number
+
     private static final Scanner in = new Scanner(System.in);
 
     public static void main(String[] args) {
